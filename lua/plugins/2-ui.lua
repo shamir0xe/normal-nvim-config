@@ -465,7 +465,7 @@ return {
       {
         "nvim-telescope/telescope-fzf-native.nvim",
         enabled = vim.fn.executable("make") == 1,
-        build = "make",
+        build = "cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release",
       },
     },
     cmd = "Telescope",

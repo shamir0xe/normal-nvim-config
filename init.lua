@@ -45,4 +45,4 @@ load_sources({
   "base.3-autocmds", -- critical stuff, don't change the execution order.
 })
 load_colorscheme(vim.g.default_colorscheme)
-load_sources_async({ "base.4-mappings" })
+load_sources_async({ "base.4-mappings", "plugins.5-mine", "plugins.6-ai-stuff"})

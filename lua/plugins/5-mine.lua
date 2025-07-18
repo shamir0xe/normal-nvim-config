@@ -10,7 +10,7 @@ return {
     },
     opts = {
       -- Your options go here
-      name = {"venv", ".venv"},
+      name = { "venv", ".venv" },
       stay_on_this_version = true,
       -- auto_refresh = false
     },
@@ -21,5 +21,11 @@ return {
       -- Keymap to retrieve the venv from a cache (the one previously used for the same project directory).
       { "<leader>vc", "<cmd>VenvSelectCached<cr>" },
     },
+  },
+  {
+    "junegunn/fzf",
+  },
+  {
+    "junegunn/fzf.vim",
   },
 }
